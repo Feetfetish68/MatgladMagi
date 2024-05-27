@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Nudlar</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					Gräsnudlar
+				</h1>
+				<img class="ingredienser" src="../../Bilder/gräs.jpg" alt="nudlar">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>200 g risnudlar (eftersom riktiga grässtrån är lite väl svåra att tugga) </li>
+							<li>1 stor näve färskt gräs (alternativt persilja eller koriander för ätbar version)</li>
+							<li>2 dl spenat, finhackad </li>
+							<li>1 dl ärtor, färska eller frysta</li>
+							<li>2 vårlökar, tunt skivade</li>
+							<li>1 röd paprika, strimlad</li>
+							<li>1 morot, strimlad</li>
+							<li>2 vitlöksklyftor, finhackade</li>
+							<li>1 tsk riven ingefära</li>
+							<li>2 msk sojasås</li>
+							<li>1 msk sesamolja</li>
+							<li>1 tsk honung</li>
+							<li>Saften av 1 lime</li>
+							<li>1 msk rostade sesamfrön</li>
+							<li>Salt och peppar efter smak</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						<ol class="recept">
+							<li>Koka risnudlarna enligt anvisningarna på förpackningen. Skölj dem sedan i kallt vatten och ställ åt sidan. </li>
+							<li>Om du använder färskt gräs (för skoj skull), se till att det är noggrant rengjort och att det verkligen är ätbart. Men för en säker och smakrik rätt, använd färsk persilja eller koriander istället. Hacka det gröna fint.</li>
+							<li>Hetta upp en stor stekpanna eller wok på medelhög värme. Tillsätt sesamolja och fräs vitlök och ingefära tills de är doftande.</li>
+							<li>Lägg till vårlöken, moroten, paprikan och ärtorna i pannan. Stek i några minuter tills grönsakerna är mjuka men fortfarande krispiga.</li>
+							<li>Tillsätt spenaten och det finhackade gröna (gräset eller örterna) och fräs ytterligare en minut.</li>
+							<li>Blanda sojasås, honung och limejuice i en liten skål och häll sedan såsblandningen över grönsakerna. Rör om väl.</li>
+							<li>Tillsätt de kokta risnudlarna till pannan och blanda allt noggrant så att nudlarna täcks av såsen och grönsakerna är jämnt fördelade.</li>
+							<li>Smaka av med salt och peppar, och justera kryddningen om det behövs.</li>
+							<li>Servering:
+							Servera gräsnudlarna varma, toppade med rostade sesamfrön och kanske några extra färska örter för färg och smak. För en extra touch, kan du även lägga till några klyftor
+							lime vid sidan om. Njut av denna lekfulla och välsmakande rätt, inspirerad av skogsgläntans friska smaker!</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+			
+				<script src="..//funktioner.js"></script>
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>

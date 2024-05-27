@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="recept, kladdkaka, Ferdy, Albin">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hem</title>
+
+		<link rel="stylesheet" href="StyleSheet1.css">
+	</head>
+	<body> 
+		<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="index.html"> Hem</a>
+				<a href="kategorier.html"> Kategorier</a>
+				<a href="omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<!--Här har vi alla recept-->
+			<div class="content">
+				<div class="containerLayer">
+					<a href="recepten/köttbullar.html" class="recipeContainer"> <img src="../Bilder/meatball.png" alt="Köttbullar"> <h3>Gigantiska köttbullar</h3></a>
+					<a href="recepten/stenar.html" class="recipeContainer"> <img class="smaller" src="../Bilder/stenar.png" alt="stenar"> <h3> Stekheta stenar</h3></a>
+					<a href="recepten/soppa.html" class="recipeContainer"> <img class="smaller" src="../Bilder/tummeupp.jpg" alt="Kannibalsoppa"> <h3> God tumme-soppa</h3> </a>
+				</div>
+				<div class="containerLayer">
+					<a href="recepten/feet.html" class="recipeContainer"><img class="smaller" src="../Bilder/feet.png" alt="fötter"> <h3>Tånagelsoppa</h3></a>
+					<a href="recepten/nudlar.html" class="recipeContainer"><img class="smaller" src="../Bilder/gräs.jpg" alt="gräsnudlar"><h3>Gräsnudlar</h3></a>
+					<a href="recepten/jord.html" class="recipeContainer"><img class="smaller" src="../Bilder/jord.jpg" alt="Mudcake"><h3>Literal "Mudcake"</h3></a>
+				</div>
+				<div class="containerLayer">
+					<a href="recepten/stroganoff.html" class="recipeContainer"><img class="smaller" src="../Bilder/korvstroganoff.jpg" alt="korvstroganoff"><h3>korvstroganoff</h3></a>
+					<a href="recepten/milkshake.html" class="recipeContainer"><img class="smallerer" src="../Bilder/milkshake.png" alt="Milkshake"><h3>Femboy Milkshake</h3> </a>
+					<a href="recepten/lettuce.html" class="recipeContainer"><img class="smallerer" src="../Bilder/BKfootlettuce.jpg" alt="Burger King Foot Lettuce"><h3>Burger King Foot Lettuce</h3> </a>
+				</div>
+				<div class="containerLayer">
+					<a href="recepten/damsugare.html" class="recipeContainer"><img class="smaller" src="../Bilder/damsugare.jpg" alt="dammsugare"><h3>dammsugare</h3></a>
+					<a href="recepten/korv.html" class="recipeContainer"><img class="smaller" src="../Bilder/korv.jpg" alt="korvar"><h3>Korv med socker</h3> </a>
+					<a href="recepten/Ikea.html" class="recipeContainer"><img class="smallerer" src="../Bilder/ikea.avif" alt="Ikea"><h3>Ikea stol</h3> </a>
+				</div>
+			</div>
+			
+			
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+
+			<script src="funktioner.js"></script>
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>
+

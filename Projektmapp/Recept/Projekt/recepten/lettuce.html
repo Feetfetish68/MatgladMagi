@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Burger King Foot Lettuce</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					NUMBER 15. Burger King Foot Lettuce
+				</h1>
+				<img class="ingredienser" src="../../Bilder/BKfootlettuce.jpg" alt="lettuce">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>Jobb på Burger king </li>
+							<li>Ett par fina skor </li>
+							<li>fötter </li>
+							<li>två lådor isbergssalad</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						<ol class="recept">
+							<li>Ta på dig några skor </li>
+							<li> Ställ dig på saladen </li>
+							<li> Njut av måltiden </li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+			
+			<script src="..//funktioner.js"></script>
+		</div>
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>

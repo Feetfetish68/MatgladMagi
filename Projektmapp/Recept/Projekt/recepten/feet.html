@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Naglar</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+		<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					Tånagelsoppa
+				</h1>
+				<img class="ingredienser" src="../../Bilder/feet.png" alt="feet">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>20 stora tånaglar (fingernaglar går också bra, men förlora då namnet på receptet) </li>
+							<li>2 dl mjöl (kan ersättas med finmalen krita för extra knaster)</li>
+							<li>1 dl majsstärkelse (för en lättare och krispigare fritering)</li>
+							<li>1 tsk bakpulver (för fluffiga tånaglar)</li>
+							<li>1 tsk salt (extra från tårar av skratt)</li>
+							<li>1 tsk svartpeppar (nymalen, för den där extra kickningen)</li>
+							<li>1 tsk paprikapulver (ger en fin färg och lite hetta)</li>
+							<li>2 ägg (helst från en morgontrött tupp)</li>
+							<li>2 dl kallt mineralvatten (kolsyrat för extra krisp)</li>
+							<li>Olja för fritering (som en djup, hemlighetsfull avgrund)</li>
+							<li>Citronklyftor (för att hålla vampyrer på avstånd)</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						<ol class="recept">
+							<li>Samla in de färska tånaglarna (gärna med ägarens samtycke för bästa smak).</li>
+							<li>I en stor skål, blanda mjöl, majsstärkelse, bakpulver, salt, peppar och paprikapulver. Denna blandning ska vara så lockande att även spöken stannar för ett smakprov.</li>
+							<li>I en annan skål, vispa äggen lätt och tillsätt det kalla mineralvattnet. Den sprudlande blandningen ska vara lika uppiggande som en midnattsritual.</li>
+							<li>Doppa tånaglarna först i mjölblandningen, sedan i äggblandningen, och sedan tillbaka i mjölblandningen för en dubbelt krispig yta.</li>
+							<li>Hetta upp oljan i en djup kastrull till 180°C. Testa oljan med en liten bit bröd; den ska bli gyllene på cirka 60 sekunder, precis som dina tånaglar.</li>
+							<li>Fritera tånaglarna i omgångar tills de är gyllene och krispiga, ungefär 2-3 minuter per omgång. Håll ett vakande öga, som om du bevakar en skatt.</li>
+							<li>Låt tånaglarna rinna av på hushållspapper. Strö över lite extra salt medan de fortfarande är varma, för att förhöja smaken ytterligare.</li>
+							<li>Servering:
+							Servera de friterade tånaglarna med citronklyftor för att pressa över och ge en fräsch twist. Lägg upp dem på ett fat prytt med lite persilja och ett leende som 
+							bara en kannibalisk kock kan uppskatta. Glöm inte att varna dina gäster om den "särskilda" ingrediensen och se deras reaktioner bli lika krispiga som tånaglarna själva!</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+
+				<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+				<!-- Öppnar Modal när man trycker på myBtn -->
+				<div id="myModal" class="modal">
+					<!-- Modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+							<form action="/action_page.php">
+								<ul class="inlogg">
+									<li><label for="fname">Username:</label>
+									<input type="text" id="fname" name="fname"></li>
+									<li><label for="lname">Password:</label>
+									<input type="text" id="lname" name="lname"></li>
+									<li><input type="submit" value="Submit"></li>
+								</ul>
+							</form>	
+					</div>
+				</div>
+			
+				<script src="..//funktioner.js"></script>
+				<div class="push"></div>
+		</div>
+			<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+			<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>

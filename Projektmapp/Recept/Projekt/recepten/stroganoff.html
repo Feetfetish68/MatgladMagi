@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Korvstroganoff</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					Korvstroganoff
+				</h1>
+				<img class="ingredienser" src="../../Bilder/korvstroganoff.jpg" alt="Korvstroganoff">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>500 g korv (t.ex. falukorv eller knackkorv), skivad i tunna skivor </li>
+							<li>1 stor lök, finhackad </li>
+							<li>2 vitlöksklyftor, finhackade</li>
+							<li>1 röd paprika, tärnad</li>
+							<li>1 grön paprika, tärnad</li>
+							<li>2 msk tomatpuré</li>
+							<li>400 g krossade tomater</li>
+							<li>1 dl grädde</li>
+							<li>2 tsk paprikapulver</li>
+							<li>Salt och svartpeppar efter smak</li>
+							<li>Smör eller olja för stekning</li>
+							<li>Färsk persilja eller gräslök för garnering (valfritt)</li>
+							<li>Kokt ris eller pasta för servering</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						<ol class="recept">
+							<li>Stek korven: Värm upp en stekpanna med lite smör eller olja över medelvärme. Tillsätt korvskivorna och stek dem tills de är gyllenbruna på båda sidor. Ta sedan ut korven och lägg åt sidan.</li>
+
+							<li>Stek grönsakerna: I samma stekpanna, tillsätt lite mer smör eller olja om det behövs och stek löken och vitlöken tills de är mjuka och genomskinliga, i cirka 3-4 minuter. Tillsätt sedan tärnad röd och grön paprika och stek i ytterligare några minuter tills de är mjuka.</li>
+
+							<li>Tillsätt tomatpuré och krossade tomater: Rör om tomatpurén i grönsakerna och låt det steka i cirka en minut för att frigöra dess smaker. Tillsätt sedan de krossade tomaterna och rör om väl.</li>
+
+							<li>Koka upp och reducera: Låt såsen koka upp och reducera värmen till låg. Låt såsen småputtra i cirka 10 minuter så att smakerna blandas väl och såsen tjocknar något.</li>
+
+							<li>Tillsätt korv och grädde: Tillsätt de stekta korvskivorna till såsen och häll i grädden. Rör om väl och låt det koka upp igen. Smaka av med paprikapulver, salt och svartpeppar. Justera kryddningen efter smak.</li>
+
+							<li>Servera: 
+							Servera den varma korvstroganoffen över kokt ris eller pasta. Garnera med färsk persilja eller gräslök om så önskas.</li>
+
+							<li>Njut av din måltid!</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+			
+				<script src="..//funktioner.js"></script>
+
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>

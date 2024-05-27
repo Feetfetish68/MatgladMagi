@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Milkshake</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					Femboy Milkshake
+				</h1>
+				<img class="ingredienser" src="../../Bilder/milkshake.png" alt="milkshake">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>3 dl vaniljglass </li>
+							<li>2 dl mjölk ;)</li>
+							<li>1 dl jordgubbar, färska eller frysta</li>
+							<li>1 msk honung eller agavesirap</li>
+							<li>1 tsk vaniljextrakt</li>
+							<li>1 dl vispgrädde</li>
+							<li>Färgglatt strössel</li>
+							<li>En handfull färska bär för dekoration (valfritt)</li>
+							<li>En rosa sugrör och paraply för dekoration</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						<ol class="recept">
+							<li>Förbered ingredienserna: Om du använder frysta jordgubbar, se till att de är något upptinade så att de blandas lättare. Skopa upp vaniljglassen och mät upp mjölken.</li>
+							<li>Blenda milkshaken: Lägg vaniljglass, mjölk, jordgubbar, honung eller agavesirap, och vaniljextrakt i en blender. Mixa tills blandningen är slät och krämig. Om milkshaken är för tjock, tillsätt lite mer mjölk tills du når önskad konsistens.</li>
+							<li>Förbered glaset: För att ge milkshaken en extra festlig touch, doppa kanten av ett högt glas i vatten och sedan i färgglatt strössel för att skapa en färgglad kant.</li>
+							<li>Häll upp och dekorera: Häll milkshaken i det förberedda glaset. Vispa grädden tills mjuka toppar bildas och skeda eller spritsa den ovanpå milkshaken. Strö över mer färgglatt strössel och toppa med några färska bär om du vill.</li>
+							<li>Servera: Sätt i ett rosa sugrör och ett litet paraply för den sista, festliga touchen. Servera omedelbart och njut av din läckra, färgglada Femboy Milkshake!</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+			
+			<script src="..//funktioner.js"></script>
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>
