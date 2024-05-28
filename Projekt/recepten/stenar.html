@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="stenar, mat, matlagning">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Stenar</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					Stekheta stenar
+				</h1>
+				<img class="ingredienser" src="../../Bilder/stenar.png" alt="stenar">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>5-10 stora, vackra stenar (helst plockade med kärlek från en närliggande flod eller park) </li>
+							<li>2 liter vatten (destillerat, för bästa resultat)</li>
+							<li>1 kvist färsk timjan (för att imponera på gästerna)</li>
+							<li>3 lökar (som ska se ut som om de verkligen gör skillnad)</li>
+							<li>2 morötter (för färg)</li>
+							<li>1 selleristjälk (för att visa att du är hälsosam)</li>
+							<li>1 vitlöksklyfta (för doftens skull)</li>
+							<li>Salt och peppar efter smak (men vi vet båda att det inte spelar någon roll)</li>
+							<li>En nypa magi och en dos tålamod</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						
+						<ol class="recept">
+						<li>Förbered Stenarna: Tvätta stenarna noggrant. De ska vara så rena att du skulle kunna äta av dem (vilket du i
+						princip kommer att göra). Om möjligt, blötlägg dem i vatten i minst en timme för att "mjuka upp" dem (skratt tillåtet). </li>
+
+						<li>Förbered Buljongen: I en stor kastrull, häll i vattnet och koka upp det. Lägg till de hackade lökarna,
+						morötterna, selleristjälken och vitlöksklyftan. Låt sjuda i cirka 30 minuter tills grönsakerna har släppt ifrån
+						sig sina smaker (inte för att det kommer att göra någon skillnad för stenarna).</li>
+
+						<li>Tillsätt Stenarna: Placera försiktigt de rena stenarna i den sjudande buljongen. Låt dem koka under låg
+						värme i minst 1,5 timmar. Tillsätt timjan, salt och peppar (för syns skull.</li>
+
+						<li>Kontrollera "Tillagningen": Under koktiden, rör om då och då och försök se seriös ut när du "smakar av".
+						Var noga med att inte bita i stenarna. Ditt leende när du låtsas att det smakar fantastiskt är nyckeln till
+						hela rätten.</li>
+
+						<li>Servering: När du känner att dina gäster är tillräckligt övertygade om att detta är en verklig delikatess, servera
+						med en stor portion humor och kanske ett gott bröd vid sidan. För att hålla skenet uppe, skopa upp några stenar och lägg
+						dem på en tallrik, garnera med lite timjan och servera med en varm blick av stolthet.</li>
+
+						<li>Avslutning: Låt gästerna njuta av sina "kokta stenar". När de inser satiren, skratta tillsammans och servera en 
+						riktig måltid som du noggrant har förberett i bakgrunden.</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+				<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+				<!-- Öppnar Modal när man trycker på myBtn -->
+				<div id="myModal" class="modal">
+					<!-- Modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+							<form action="/action_page.php">
+								<ul class="inlogg">
+									<li><label for="fname">Username:</label>
+									<input type="text" id="fname" name="fname"></li>
+									<li><label for="lname">Password:</label>
+									<input type="text" id="lname" name="lname"></li>
+									<li><input type="submit" value="Submit"></li>
+								</ul>
+							</form>	
+					</div>
+				</div>
+				<script src="..//funktioner.js"></script>
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>				
+	</body>
+</html>

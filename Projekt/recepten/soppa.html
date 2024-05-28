@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kannibalism</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+
+			<div class="content">
+				<h1 class="recept">
+					God tumme-soppa
+				</h1>
+				<img class="ingredienser" src="../../Bilder/tummeupp.jpg" alt="kannibalism">
+				<div>
+					<div style="display:table-cell;"> 
+						<h2 class="ingredienser"> ingredienser </h2>
+						<ul class="ingredienser">
+							<li>2 "friska" löpare (vältränade och helst från ett maratonlopp </li>
+							<li>3 dl lök, hackad (kan ersättas med grannens tårar för extra smak)</li>
+							<li>2 dl morötter, skivade (direkt från trädgården, gärna stulna för adrenalinens skull)</li>
+							<li>1 dl selleri, hackad (för den fräscha smaken av oväntat besök)</li>
+							<li>2 vitlöksklyftor (för att hålla andra kannibalister på avstånd)</li>
+							<li>1 bukett garni (blandning av örter, helst plockade vid midnatt)</li>
+							<li>2 liter buljong (valfritt djur, men gärna hemlagad från gårdagens "gäster")</li>
+							<li>Salt och peppar (efter smak, eller efter hur mycket man gillar sina "gäster")</li>
+							<li>1 tsk kanel (för den exotiska touchen)</li>
+							<li>2 dl rödvin (för att fira den lyckade jakten)</li>
+						</ul>			
+					</div>
+					<div style="display:table-cell">
+						<h2 class="recept"> instruktioner </h2>
+						<ol class="recept">
+							<li>Börja med att sätta på lite kuslig musik för rätt stämning. Kanske något med Hannibal Lecter-tema.</li>
+							
+							<li>Hacka löpare i småbitar, helst under muntra samtal om deras senaste maraton.</li>
+							
+							<li>Hetta upp en stor gryta på medelhög värme och tillsätt en skvätt olja (från olivodlingar man rånat).</li>
+							
+							<li>Fräs löken tills den är genomskinlig och tillsätt morötter och selleri. Låt grönsakerna svettas lite, de har ändå inget val.</li>
+							
+							<li>Lägg till vitlöken och rör om, som om du avslöjar en mörk hemlighet.</li>
+							
+							<li>Häll i buljongen och bukett garni, låt allt koka upp medan du funderar på kvällens nästa "gäster".</li>
+							
+							<li>Tillsätt de hackade löparna och låt sjuda på låg värme i ungefär en timme, eller tills köttet är mört och faller av benet (metaforiskt sett).</li>
+							
+							<li>Smaka av med salt, peppar och kanel. Var generös med kryddorna, precis som du är med dina "inbjudningar".</li>
+							
+							<li>Rör ner rödvinet och låt soppan sjuda ytterligare 10 minuter för att smaken ska gifta sig, precis som en oförglömlig middag. </li>
+							
+							<li>Servering:
+							Servera soppan varm, gärna i skålar formade som små kistor för den dramatiska effekten. Dekorera med en kvist persilja och en antydan av galghumor. Skåla för en 
+							lyckad jakt och njut av varje skrämmande sked!</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+			
+				<script src="..//funktioner.js"></script>
+
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>

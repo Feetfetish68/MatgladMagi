@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Albin, köttbullar, gigantiska, giants only">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Jord</title>
+
+		<link rel="stylesheet" href="..//StyleSheet1.css">
+	</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+	<div class="wrapper">
+	    <h1>Matglad Magi</h1>
+		<nav class="navbar">
+			<a href="../../Index.html"> Hem</a>
+			<a href="../Kategorier.html"> Kategorier</a>
+			<a href="../Omoss.html"> Om oss</a>
+			<div onclick="darkMode()" class="side"> Ändra färg </div>
+			<a class="side" id="myBtn"> Logga in</a>
+		</nav>
+
+		<div class="content">
+			<h1 class="recept">
+				Gigantiska köttbullar (Drake edition)
+			</h1>
+			<img class="ingredienser" src="../../Bilder/jord.jpg" alt="jord">
+			<div>
+				<div style="display:table-cell;"> 
+					<h2 class="ingredienser"> ingredienser </h2>
+					<ul class="ingredienser">
+						<li>3 dl jord (verklig jord från en säker och ren källa som är ätbar och säker för konsumtion, exempelvis steriliserad kakaopulver och malt kexblandning)</li>
+						<li>2 ägg</li>
+						<li>3 dl socker</li>
+						<li>2 dl vetemjöl</li>
+						<li>1 tsk vaniljsocker</li>
+						<li>1/2 tsk salt</li>
+						<li>150 g smör, smält</li>
+						<li>2 dl kakao (för att efterlikna jorden och ge en djup chokladsmak)</li>
+						<li>1 tsk bakpulver</li>
+					</ul>			
+				</div>
+				<div style="display:table-cell">
+					<h2 class="recept"> instruktioner </h2>
+					<ol class="recept">
+						<li>Förvärm ugnen till 175°C och smörj en springform (ca 24 cm i diameter) med smör eller lägg bakplåtspapper i botten.</li>
+						<li>I en stor skål, vispa ägg och socker tills blandningen är lätt och fluffig.</li>
+						<li>I en annan skål, blanda vetemjöl, kakao, vaniljsocker, salt och bakpulver. Detta är din "jord"-blandning.</li>
+						<li>Tillsätt den smälta smöret till ägg- och sockerblandningen och rör om tills allt är väl blandat.</li>
+						<li>Tillsätt sedan "jord"-blandningen till den våta blandningen och rör om tills smeten är jämn och utan klumpar.</li>
+						<li>Häll smeten i den förberedda formen och jämna ut ytan med en spatel.</li>
+						<li>Grädda i mitten av ugnen i cirka 20-25 minuter. Kakan ska vara kladdig i mitten men ha stelnat på kanterna.</li>
+						<li>Låt kladdkakan svalna i formen innan du tar ut den.</li>
+						<li>Servering:
+						Servera kladdkakan som den är eller med en klick vispgrädde, en skopa vaniljglass eller färska bär för en extra lyxig touch.</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+		
+			<script src="..//funktioner.js"></script>	
+	</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>

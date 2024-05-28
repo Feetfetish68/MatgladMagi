@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="sv-SE">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="recept, kladdkaka, Ferdy, Albin">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mat</title>
+
+
+    <link rel="stylesheet" href="..//StyleSheet1.css">
+
+</head>
+	<body>
+			<!-- Wrapper är där all information finns. Den är till för att trycka ner footern -->
+		<div class="wrapper">
+			<h1>Matglad Magi</h1>
+			<nav class="navbar">
+				<a href="../Index.html"> Hem</a>
+				<a href="../Kategorier.html"> Kategorier</a>
+				<a href="../Omoss.html"> Om oss</a>
+				<div onclick="darkMode()" class="side"> Ändra färg </div>
+				<a class="side" id="myBtn"> Logga in</a>
+			</nav>
+		
+		
+			<div class="content">
+				<a href="../recepten/soppa.html" class="subkategori"> 
+					<div class="katbild">
+						<img class="smaller" src="../../Bilder/tummeupp.jpg" alt="soppa">
+					</div>
+					<div class="katp">
+						<h2>God tumme-soppa</h2>
+						<p>En god soppa gjord för endast kannibaler &lt;3</p>
+					</div>
+				</a>		
+				<a href="../recepten/köttbullar.html" class="subkategori"> 
+					<div class="katbild">
+						<img class="smaller" src="../../Bilder/meatball.png" alt="köttbullar">
+					</div>
+					<div class="katp">
+						<h2>Gigantiska köttbullar</h2>
+						<p>Fett stora köttbullar</p>
+					</div>
+				</a>		
+				<a href="../recepten/stenar.html" class="subkategori"> 
+					<div class="katbild">
+						<img class="smaller" src="../../Bilder/stenar.png" alt="stenar">
+					</div>
+					<div class="katp">
+						<h2>Stekheta stenar</h2>
+						<p> "tsssssssss", så låter det när du får smaka den här läckerheten</p>
+					</div>
+				</a>		
+				<a href="../recepten/feet.html" class="subkategori"> 
+					<div class="katbild">
+						<img class="smaller" src="../../Bilder/feet.png" alt="fötter">
+					</div>
+					<div class="katp">
+						<h2>Tånagelsoppa</h2>
+						<p> Obenagligt gott!</p>
+					</div>
+				</a>			
+				<a href="../recepten/nudlar.html" class="subkategori"> 
+					<div class="katbild">
+						<img class="smaller" src="../../Bilder/gräs.jpg" alt="nudlar">
+					</div>
+					<div class="katp">
+						<h2>Gräsnudlar</h2>
+						<p> Smaken växer som gräs på tungan</p>
+					</div>
+				</a>
+			
+			
+			</div>
+
+			<!-- Stolen from w3schools (https://www.w3schools.com/howto/howto_css_modals.asp)-->
+			<!-- Öppnar Modal när man trycker på myBtn -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2> Login page does currently not work, because idk webbserverdevelopment bs</h2>
+						<form action="/action_page.php">
+							<ul class="inlogg">
+								<li><label for="fname">Username:</label>
+								<input type="text" id="fname" name="fname"></li>
+								<li><label for="lname">Password:</label>
+								<input type="text" id="lname" name="lname"></li>
+								<li><input type="submit" value="Submit"></li>
+							</ul>
+						</form>	
+				</div>
+			</div>
+
+			<script src="funktioner.js"></script>
+		</div>
+		<!-- Footern är nu under allt annat, vilket gör att den alltid kommer att hamna på botten av sidan -->
+		<footer class="footer"><p class="footer">&copy; 2024 Matglad Magi. All rights reserved.</p></footer>
+	</body>
+</html>
